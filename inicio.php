@@ -61,33 +61,13 @@
 //$client = new SoapClient(null, array('location' => 'http://www.banxico.org.mx:80/DgieWSWeb/DgieWS?WSDL', 
 //                             'uri'      => 'http://DgieWSWeb/DgieWS?WSDL', 
 //                            // 'encoding' => 'ISO-8859-1', 
-//                             'trace'    => 1) ); 
-//try 
-//{ 
-//    $resultado = $client->tiposDeCambioBanxico(); 
-//} 
-//catch (SoapFault $exception) 
-//{ 
-//} 
-//if(!empty($resultado)){ 
-//    $dom = new DomDocument(); 
-//    $dom->loadXML($resultado); 
-//    $xmlDatos = $dom->getElementsByTagName( "Obs" ); 
-//        $xmlTags = $dom->getElementsByTagName( "Series" ); 
-//    if($xmlDatos->length>1) { 
-//        for($i=0;$i<6;$i++){
-//        $item = $xmlDatos->item($i);
-//        $tags = $xmlTags->item($i); 
-//       echo  $fecha_tc =($item->getAttribute('TIME_PERIOD'))."  EL TIPO DE CAMBIO ES    "; 
-//       echo $nombre=($tags->getAttribute('TITULO'));
-//      echo  $tc = $item->getAttribute('OBS_VALUE').'</br>' ;
-//    } 
-//    
-//        }
-//}
+//     
+//                             
+//                                                                             'trace'    => 1) ); 
+//SEGUIMOS PROBANDO
 ?>
 
-     
+    
     </head>
      
     <body>
